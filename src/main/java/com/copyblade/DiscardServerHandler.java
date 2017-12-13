@@ -26,4 +26,7 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter { // (1)
         cause.printStackTrace();
         ctx.close();
     }
+
+
+
 }
